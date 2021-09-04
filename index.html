@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LockerBox Login</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        
+        <script type="text/javascript">
+            $(window).load(function(){
+                $('.preloader').fadeOut(1000); // set duration in brackets    
+            });
+        </script>
+        <link rel="stylesheet" href="css/style.css">    
+
+    </head>
+
+    <body>
+        <div class="preloader">
+            <div class="spinner">
+                <span class="spinner-rotate"></span>
+            </div>
+        </div>
+        <center>
+     
+            <div class="pin-login" id="mainPinLogin">
+                <input type="password" readonly class="pin-login__text">
+
+                <div class="pin-login__numpad">
+
+                </div>
+            </div>
+
+            <script src="js/main.js"></script>
+
+            
+        </center>
+        
+    </body>
+
+</html>
